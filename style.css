@@ -13,4 +13,5 @@ p {
 img {
    display: block;
     border: 2px solid lawngreen;
+    width: 400px; height: 200px;
 }

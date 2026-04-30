@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    font-family: 'Georgia', serif;
+    background-color: #f4f1eb;
+    color: #2f3e3e;
+    background: url('https://t4.ftcdn.net/jpg/03/84/78/29/360_F_384782913_Xs2MO76h0mHh3SLT9H8KJq3k8iYmBtGZ.jpg');
+}
+
+
+header {
+    background-color: #e6e0d6;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ccc;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    letter-spacing: 2px;
+    width: 200px;
+}
+
+header p {
+    margin: 0;
+    font-size: 14px;
+    color: #c52e2e;
+}
+
+
+.banner {
+    height: 400px;
+    background: url('https://t4.ftcdn.net/jpg/03/84/78/29/360_F_384782913_Xs2MO76h0mHh3SLT9H8KJq3k8iYmBtGZ.jpg') center/cover no-repeat;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+.section {
+    padding: 40px;
+}
+
+.section h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #f4f1eb;
+}
+
+
+.movies {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+
+.movie {
+    background: white;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+}
+
+.movie h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.movie p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+
+.btn {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #5c6f6f;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+} 
+.topbtn{
+    margin-top: 10px;
+    padding: 30px;
+    background-color: #5c6f6f;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.btn , .topbtn:hover {
+    background-color: #915c00;
+}

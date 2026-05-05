@@ -44,6 +44,18 @@ header p {
 
 .section {
     padding: 40px;
+    background-color: rgba(113, 148, 113, 0.952);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.sectioncs {
+    padding: 40px;
+    background: url('https://files.123freevectors.com/wp-content/original/140924-abstract-black-and-brown-spiral-background-illustration.jpg') center/cover no-repeat;
+ 
+    margin-left: 30px;
+    margin-right: 30px;
+    color: #f4f1eb;
 }
 
 .section h2 {
@@ -60,13 +72,22 @@ header p {
 }
 
 
+
 .movie {
     background: white;
     padding: 15px;
     width: 200px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 10px black;
     text-align: center;
 }
+.movietest {
+    background: white;
+    padding: 15px;
+    width: 200px;
+    box-shadow: 0 4px 10px black;
+    text-align: center;
+}
+
 
 .movie img {
     width: 100%;
@@ -102,6 +123,13 @@ header p {
 
 }
 
-.btn , .topbtn:hover {
+.btn:hover , .topbtn:hover {
     background-color: #915c00;
+    
+}
+.movie:hover{
+  
+  background: url('https://t4.ftcdn.net/jpg/03/84/78/29/360_F_384782913_Xs2MO76h0mHh3SLT9H8KJq3k8iYmBtGZ.jpg') center/cover no-repeat;
+  color: rgb(246, 255, 255);
+   
 }
